@@ -59,7 +59,7 @@ $(document).ready(function(){
 	});
 
 	// Закрытие мобильного меню
-	$('.close-icon, .mobile-list__services, .mobile-list__portfolio, .mobile-list__price').click(function() {
+	$('.close-icon, .mobile-list__services, .mobile-list__portfolio, .mobile-list__price, .mobile-container').click(function() {
 		event.preventDefault(); 
 		$('.mobile-container').fadeOut(300, enableScroll);
 			
