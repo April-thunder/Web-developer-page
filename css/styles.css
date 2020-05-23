@@ -681,7 +681,7 @@ html, body {
 }
 
 .flying-div-small {
-	animation: small 2s;
+	animation: small 10s;
 	font-size: 36px;
 	top: 10%;
 	left: 30vw;
@@ -690,8 +690,8 @@ html, body {
 
 @keyframes small {
 	0% {transform: translate(12vw, 20vh) rotateX(-70deg);}
-	30% {transform: translate(30vw, 40vh) rotateX(50deg) rotateY(-134deg);}
-	70% {transform: translate(-30vw, 20vh) rotateX(130deg) rotateY(20deg);}
+	20% {transform: translate(30vw, 40vh) rotateX(50deg) rotateY(-134deg);}
+	80% {transform: translate(-30vw, 20vh) rotateX(130deg) rotateY(20deg);}
 	100% {transform: translate(-12vw) rotateY(-220vh);}	
 }
 
@@ -700,19 +700,19 @@ html, body {
 	top: 70%;
 	left: 50vw;
 	transform: rotate(50deg);
-	animation: big 2s;
+	animation: big 10s;
 }
 
 @keyframes big {
 	0% {transform: translate(5vw, -20vh);}
-	30% {transform: translate(10vw, -30vh) rotateX(260deg) rotateY(-80deg);}
-	70% {transform: translate(20vw, 15vh) rotateX(-800deg) rotateY(20deg);}
-	90% {transform: translate(-5vw, -15vh) rotateX(300deg) rotateY(-300deg);}
+	40% {transform: translate(10vw, -30vh) rotateX(260deg) rotateY(-80deg);}
+	60% {transform: translate(20vw, 15vh) rotateX(-800deg) rotateY(20deg);}
+	95% {transform: translate(-5vw, -15vh) rotateX(300deg) rotateY(-300deg);}
 	100% {transform: translate(40vw, 10vh);}
 }
 
 .flying-curly-brace {
-	animation: curly 2s;
+	animation: curly 10s;
 	font-size: 48px;
 	top: 10%;
 	left: 55vw;
@@ -721,13 +721,13 @@ html, body {
 
 @keyframes curly {
 	0% {transform: translate(-10vw, 20vh) rotateX(50deg);}
-	50% {transform: translate(-30vw, -10vh) rotateX(-250deg) rotateY(80deg);}
-	70% {transform: translate(50vw, 40vh) rotateX(130deg) rotateY(20deg);}
+	15% {transform: translate(-30vw, -10vh) rotateX(-250deg) rotateY(80deg);}
+	45% {transform: translate(50vw, 40vh) rotateX(130deg) rotateY(20deg);}
 	100% {transform: translate(20vw);}
 }
 
 .flying-sharp {
-	animation: sharp 2s;
+	animation: sharp 10s;
 	font-size: 48px;
 	top: 70%;
 	left: 30vw;
@@ -736,14 +736,14 @@ html, body {
 
 @keyframes sharp {
 	0% {transform: translate(10vw, -10vh);}
-	50% {transform: translate(40vw, -50vh) rotateX(60deg) rotateY(-280deg);}
-	70% {transform: translate(60vw, -20vh) rotateX(-800deg) rotateY(20deg);}
-	90% {transform: translate(40vw, -10vh) rotateX(300deg) rotateY(-300deg);}
+	18% {transform: translate(40vw, -50vh) rotateX(60deg) rotateY(-280deg);}
+	47% {transform: translate(60vw, -20vh) rotateX(-800deg) rotateY(20deg);}
+	70% {transform: translate(40vw, -10vh) rotateX(300deg) rotateY(-300deg);}
 	100% {transform: translate(10vw);}
 }
 
 .flying-lessmore {
-	animation: lessmore 2s;
+	animation: lessmore 10s;
 	font-size: 48px;
 	top: 10vh;
 	left: 5vw;
@@ -752,8 +752,8 @@ html, body {
 
 @keyframes lessmore {
 	0% {transform: translate(5vw, 20vh) rotateX(-70deg);}
-	50% {transform: translate(50vw, -10vh) rotateX(50deg) rotateY(-134deg);}
-	70% {transform: translate(-5vw, 40vh) rotateX(130deg) rotateY(20deg);}
+	28% {transform: translate(50vw, -10vh) rotateX(50deg) rotateY(-134deg);}
+	55% {transform: translate(-5vw, 40vh) rotateX(130deg) rotateY(20deg);}
 	100% {transform: translate(10vw) rotateY(-220deg);}	
 }
 
@@ -765,14 +765,14 @@ html, body {
 	position: absolute;
 	top: 2300px;
 	left: 5vw;
-	animation: small-banner 2s;
+	animation: small-banner 10s;
 	transform: rotate(-30deg);
 }
 
 @keyframes small-banner {
 	0% {transform: translateX(1vw) translateY(10px);}
-	50% {transform: translateX(80vw) translateY(10px) rotateX(-50deg) rotateY(-80deg);}
-	70% {transform: translateX(70vw) translateY(280px) rotateX(130deg) rotateY(20deg);}
+	35% {transform: translateX(80vw) translateY(10px) rotateX(-50deg) rotateY(-80deg);}
+	75% {transform: translateX(70vw) translateY(280px) rotateX(130deg) rotateY(20deg);}
 	100% {transform: translateX(0vw) translateY(-20px);}
 }
 
@@ -782,14 +782,14 @@ html, body {
 	position: absolute;
 	top: 2550px;
 	left: 90vw;
-	animation: big-banner 2s;
+	animation: big-banner 10s;
 	transform: rotate(50deg);
 }
 
 @keyframes big-banner {
 	0% {transform: translateX(0vw) translateY(0px);}
-	50% {transform: translateX(-50vw) translateY(-150px) rotateX(-50deg) rotateY(260deg)}
-	70% {transform: translateX(-30vw) translateY(-250px) rotateX(130deg) rotateY(20deg)}
+	21% {transform: translateX(-50vw) translateY(-150px) rotateX(-50deg) rotateY(260deg)}
+	63% {transform: translateX(-30vw) translateY(-250px) rotateX(130deg) rotateY(20deg)}
 	100% {transform: translateX(0vw) translateY(10px);}
 }
 
@@ -799,14 +799,14 @@ html, body {
 	position: absolute;
 	top: 2280px;
 	left: 90vw;
-	animation: curly-banner 2s;
+	animation: curly-banner 10s;
 	transform: rotate(80deg);
 }
 
 @keyframes curly-banner {
 	0% {transform: translateX(0vw) translateY(0px);}
-	50% {transform: translateX(-5vw) translateY(280px) rotateX(-150deg) rotateY(260deg)}
-	70% {transform: translateX(-70vw) translateY(280px) rotateX(130deg) rotateY(20deg)}
+	10% {transform: translateX(-5vw) translateY(280px) rotateX(-150deg) rotateY(260deg)}
+	40% {transform: translateX(-70vw) translateY(280px) rotateX(130deg) rotateY(20deg)}
 	100% {transform: translateX(0vw) translateY(0px);}
 }
 
@@ -814,17 +814,17 @@ html, body {
 	font-size: 52px;
 	color: white;
 	position: absolute;
-	top: 2580px;
+	top: 2590px;
 	left: 10vw;
-	animation: sharp-banner 3s;
+	animation: sharp-banner 10s;
 	z-index: 5;
 	transform: rotate(-20deg);
 }
 
 @keyframes sharp-banner {
 	0% {transform: translateX(0vw) translateY(0px);}
-	50% {transform: translateX(20vw) translateY(-250px) rotateX(50deg) rotateY(120deg);}
-	70% {transform: translateX(60vw) translateY(-100px) rotateX(130deg) rotateY(20deg);}
+	20% {transform: translateX(20vw) translateY(-250px) rotateX(50deg) rotateY(120deg);}
+	45% {transform: translateX(60vw) translateY(-100px) rotateX(130deg) rotateY(20deg);}
 	100% {transform: translateX(0vw) translateY(0px);}
 }
 
@@ -834,15 +834,15 @@ html, body {
 	position: absolute;
 	top: 2540px;
 	left: 50vw;
-	animation: lessmore-banner 3s;
+	animation: lessmore-banner 10s;
 	z-index: 5;
 	transform: rotate(-20deg);
 }
 
 @keyframes lessmore-banner {
 	0% {transform: translateX(0vw) translateY(0px);}
-	50% {transform: translateX(-20vw) translateY(-240px) rotateX(50deg) rotateY(120deg)}
-	70% {transform: translateX(30vw) translateY(-30px) rotateX(130deg) rotateY(20deg)}
+	30% {transform: translateX(-20vw) translateY(-240px) rotateX(50deg) rotateY(120deg)}
+	80% {transform: translateX(30vw) translateY(-30px) rotateX(130deg) rotateY(20deg)}
 	100% {transform: translateX(5vw) translateY(-10px);}
 }
 
@@ -897,9 +897,9 @@ html, body {
 
 	.banner__flying-curly-brace {top: 2400px;}
 
-	.banner__flying-sharp {top: 2650px;}
+	.banner__flying-sharp {top: 2660px;}
 
-	.banner__flying-lessmore {top: 2640px;}
+	.banner__flying-lessmore {top: 2645px;}
 
 	.main-subcontainer {justify-content: flex-start;}
 
@@ -1053,15 +1053,15 @@ html, body {
 
 	.footer__contacts {margin: 74px 0 0 50px;}
 	
-	.banner__flying-div-small {top: 2530px;}
+	.banner__flying-div-small {top: 2780px;}
 
-	.banner__flying-div-big {top: 2750px;}
+	.banner__flying-div-big {top: 2950px;}
 
-	.banner__flying-curly-brace {top: 2500px;}
+	.banner__flying-curly-brace {top: 2780px;}
 
-	.banner__flying-sharp {top: 2780px;}
+	.banner__flying-sharp {top: 3050px;}
 
-	.banner__flying-lessmore {top: 2780px;}
+	.banner__flying-lessmore {top: 3010px;}
 
 }
 
@@ -1070,6 +1070,10 @@ html, body {
 	.portfolio-section {margin-top: 101px;}
 
 	.services-item {padding-bottom: 59px;}
+
+	.flying-sharp {left: 10vw;}
+
+	.flying-div-big {left: 35vw;}
 
 	.banner__flying-div-small {
 		top: 2750px;
@@ -1254,11 +1258,17 @@ html, body {
 
 	.flying-div-small {font-size: 18px;}
 
-	.flying-div-big {font-size: 24px;}
+	.flying-div-big {
+		top: 80%;
+		font-size: 24px;
+	}
 
 	.flying-curly-brace {font-size: 26px;}
 
-	.flying-sharp {font-size: 26px;}
+	.flying-sharp {
+		top: 75%;
+		font-size: 26px;
+	}
 
 	.flying-lessmore {font-size: 26px;}
 
