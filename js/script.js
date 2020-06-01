@@ -62,9 +62,16 @@ $(document).ready(function(){
 	$('.close-icon, .mobile-list__services, .mobile-list__portfolio, .mobile-list__price, .mobile-container').click(function() {
 		event.preventDefault(); 
 		$('.mobile-container').fadeOut(300, enableScroll);
-			
 	});
-	
+
+	// Закрытие мобильного меню при ширине экрана >1400px
+	$(window).resize(function() {
+		var windowWidth = $(window).width();
+		if(windowWidth >= 1400) {
+			$('.mobile-container').fadeOut(300, enableScroll);
+		}
+	})
+		
 	// Свайпер
 	var mySwiper = new Swiper ('.swiper-container', {
     loop: true,
@@ -136,7 +143,7 @@ $(document).ready(function(){
 					data: th.serialize(),
 					// eslint-disable-next-line func-names
 				}).done(function() {
-					alert("Спасибо за Ваше обращение!");
+					swal("Спасибо!", "Ваше сообщение отправлено", "success");//alert("Спасибо за Ваше обращение!");
 					setTimeout(function() {
 
 					console.log('Отправлено')
@@ -149,6 +156,7 @@ $(document).ready(function(){
 			}
 			});    
  });
+
  });
 
 
