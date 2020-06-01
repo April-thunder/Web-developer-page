@@ -665,9 +665,14 @@ html, body {
 	text-decoration: none;
 	color: white;
 	transition: background 300ms ease;
+	outline: none;
 }
 
 .mobile-list a:hover {color: orangered;} 
+
+.swal-button-container button {
+	background: orangered;
+}
 
 /* Конец меню при адаптации */
 
@@ -681,7 +686,7 @@ html, body {
 }
 
 .flying-div-small {
-	animation: small 10s;
+	animation: small 3s;
 	font-size: 36px;
 	top: 10%;
 	left: 30vw;
@@ -700,7 +705,7 @@ html, body {
 	top: 70%;
 	left: 50vw;
 	transform: rotate(50deg);
-	animation: big 10s;
+	animation: big 3s;
 }
 
 @keyframes big {
@@ -712,7 +717,7 @@ html, body {
 }
 
 .flying-curly-brace {
-	animation: curly 10s;
+	animation: curly 3s;
 	font-size: 48px;
 	top: 10%;
 	left: 55vw;
@@ -727,7 +732,7 @@ html, body {
 }
 
 .flying-sharp {
-	animation: sharp 10s;
+	animation: sharp 3s;
 	font-size: 48px;
 	top: 70%;
 	left: 30vw;
@@ -743,7 +748,7 @@ html, body {
 }
 
 .flying-lessmore {
-	animation: lessmore 10s;
+	animation: lessmore 3s;
 	font-size: 48px;
 	top: 10vh;
 	left: 5vw;
@@ -765,7 +770,7 @@ html, body {
 	position: absolute;
 	top: 2300px;
 	left: 5vw;
-	animation: small-banner 10s;
+	animation: small-banner 3s;
 	transform: rotate(-30deg);
 }
 
@@ -782,7 +787,7 @@ html, body {
 	position: absolute;
 	top: 2550px;
 	left: 90vw;
-	animation: big-banner 10s;
+	animation: big-banner 3s;
 	transform: rotate(50deg);
 }
 
@@ -799,7 +804,7 @@ html, body {
 	position: absolute;
 	top: 2280px;
 	left: 90vw;
-	animation: curly-banner 10s;
+	animation: curly-banner 3s;
 	transform: rotate(80deg);
 }
 
@@ -816,7 +821,7 @@ html, body {
 	position: absolute;
 	top: 2590px;
 	left: 10vw;
-	animation: sharp-banner 10s;
+	animation: sharp-banner 3s;
 	z-index: 5;
 	transform: rotate(-20deg);
 }
@@ -834,7 +839,7 @@ html, body {
 	position: absolute;
 	top: 2540px;
 	left: 50vw;
-	animation: lessmore-banner 10s;
+	animation: lessmore-banner 3s;
 	z-index: 5;
 	transform: rotate(-20deg);
 }
@@ -1015,7 +1020,6 @@ html, body {
 		visibility: hidden;
 		transition: opacity 0.3s, visibility 0.3s;
 	}
-
 
 }
 
@@ -1358,6 +1362,16 @@ html, body {
 		height: 11px;
 		margin: 0 8px;
 	}
+
+	.flying-sharp {
+		top: 35%;
+		left: 5vw;
+	}
+
+	.flying-div-big {
+		top: 15%;
+		left: 80vw;
+	}
 	
 }
 
@@ -1464,19 +1478,9 @@ html, body {
 
 	.flying-div-small {top: 4%;}
 
-	.flying-div-big {
-		top: 15%;
-		left: 80vw;
-	}
-
 	.flying-curly-brace {
 		top: 5%;
 		left: 80vw;}
-
-	.flying-sharp {
-		top: 30%;
-		left: 10vw;
-	}
 
 	.flying-lessmore {font-size: 26px;}
 }
