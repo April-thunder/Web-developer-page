@@ -768,8 +768,8 @@ html, body {
 	z-index: 11;
 	font-size: 24px;
 	position: absolute;
-	top: 2300px;
-	left: 5vw;
+	top: 2280px;
+	left: 2vw;
 	animation: small-banner 3s;
 	transform: rotate(-30deg);
 }
@@ -902,7 +902,7 @@ html, body {
 
 	.banner__flying-curly-brace {top: 2400px;}
 
-	.banner__flying-sharp {top: 2660px;}
+	.banner__flying-sharp {top: 2680px;}
 
 	.banner__flying-lessmore {top: 2645px;}
 
@@ -1057,13 +1057,13 @@ html, body {
 
 	.footer__contacts {margin: 74px 0 0 50px;}
 	
-	.banner__flying-div-small {top: 2780px;}
+	.banner__flying-div-small {top: 2710px;}
 
 	.banner__flying-div-big {top: 2950px;}
 
-	.banner__flying-curly-brace {top: 2780px;}
+	.banner__flying-curly-brace {top: 2740px;}
 
-	.banner__flying-sharp {top: 3050px;}
+	.banner__flying-sharp {top: 3000px;}
 
 	.banner__flying-lessmore {top: 3010px;}
 
@@ -1274,7 +1274,10 @@ html, body {
 		font-size: 26px;
 	}
 
-	.flying-lessmore {font-size: 26px;}
+	.flying-lessmore {
+		top: 15%;
+		font-size: 26px;
+	}
 
 	.banner__flying-div-small {display: none;}
 
