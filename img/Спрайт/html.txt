@@ -1,0 +1,4 @@
+<i class="sprite sprite-facebook"></i>
+<i class="sprite sprite-instagram"></i>
+<i class="sprite sprite-twitter"></i>
+<i class="sprite sprite-vk"></i>
